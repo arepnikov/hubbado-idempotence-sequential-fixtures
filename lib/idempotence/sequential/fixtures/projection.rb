@@ -1,6 +1,9 @@
 module Idempotence
   module Sequential
     module Fixtures
+      # NOTE: This only inherits from the Eventide fixture for convenience - do
+      # not rely on the eventide projection fixture methods being available, as
+      # this may change in the future.
       class Projection < EntityProjection::Fixtures::Projection
         initializer :projection, :control_entity, :entity, :event, :causation_message, :test_block
 
