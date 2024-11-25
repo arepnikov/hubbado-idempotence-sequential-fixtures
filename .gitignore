@@ -1,0 +1,10 @@
+/.bundle/
+/coverage/
+/doc/
+/pkg/
+/tmp/
+/gems/
+
+Gemfile.lock
+
+hubbado-idempotence-sequential-fixtures*.gem
